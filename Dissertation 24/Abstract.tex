@@ -1,0 +1,16 @@
+% ------------------------------------------------------------------------
+% -*-TeX-*- -*-Hard-*- Smart Wrapping
+% ------------------------------------------------------------------------
+% Thesis Abstract --------------------------------------------------------
+\prefacesection{Abstract}
+Schizophrenia is a chronic and severe mental disorder characterized by a complex array of symptoms, including seeing things,cognitive impairments, hearing voices and disorganized thinking. Accurate prediction of symptom severity on a generalized level is crucial for informing broader treatment approaches and improving overall patient care strategies. This study investigates the comparative effectiveness of single-task learning (STL) and multi-task learning (MTL) in predicting generalized symptom severity among schizophrenia patients using data from the Crosscheck dataset.
+
+The dataset comprises data from 62 schizophrenia outpatients, integrating both passive sensor data and 10 self-reported Ecological Momentary Assessment (EMA) responses. The EMA responses capture key psychological and behavioral states, including calmness, depression, self-harm thoughts, hopefulness, hallucinations, sleep quality, social engagement, stress levels, cognitive disturbances, and auditory hallucinations. This combination of continuous passive monitoring and real-time self-reports provides a rich, multidimensional dataset that offers valuable insights into the daily experiences and fluctuations in symptoms among individuals with schizophrenia. In this study, both single-task and multi-task variants of the Least Absolute Shrinkage and Selector Operator (LassoCV and multitaskLassoCV) were employed to predict generalized symptom severity. Root Mean Square Error (RMSE) was used to evaluate model performance, and the Wilcoxon test was applied to assess statistical significance.
+
+
+The results indicated that the multi-task learning approach, particularly with hyperparameter tuning of the regularization factor, significantly outperformed single-task learning models in predicting generalized symptom severity across all ten EMAs. Hyperparameter tuning in LassoCV and MultitaskLassoCV led to a highly significant enhancement, with a p-value of 0.0039, compared to the p-value of 0.0059 achieved with auto-selection by the model. These findings highlight the pivotal role of hyper-parameter tuning, especially in LassoCV and MultiTaskLassoCV, in boosting predictive accuracy and capturing complex symptom patterns more effectively than single-task approaches.
+
+
+
+
+% ----------------------------------------------------------------------

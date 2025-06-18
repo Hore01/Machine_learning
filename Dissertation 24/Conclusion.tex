@@ -1,0 +1,37 @@
+% ------------------------------------------------------------------------
+% -*-TeX-*- -*-Hard-*- Smart Wrapping
+% ------------------------------------------------------------------------
+\def\baselinestretch{1}
+
+\chapter{Conclusion}
+
+\def\baselinestretch{1.66}
+
+%%% ----------------------------------------------------------------------
+
+
+%\bigskip
+
+%%% ----------------------------------------------------------------------
+\goodbreak
+\section{Conclusion}
+The comparison between Single Task Learning (STL) using LassoCV and Multi-Task Learning (MTL) using MultiTaskLassoCV reveals significant performance differences in predicting mental health symptoms among schizophrenia patients.  MTL generally achieves lower Root Mean Square Error (RMSE) values compared to STL especially with hyperparameter tuning of the alpha, demonstrating better predictive accuracy across various symptoms. Notably, MTL shows significant improvements over STL in symptoms with ema\_SEEING-THINGS having the lowest RMSE value. MTL's lower RMSE suggests it predicts variations in patients' levels of hallucinations more accurately.
+
+
+Additionally, it is important to note that both LassoCV and MultitasklassoCV can be effectively utilized in a generalized approach. The findings in this study underscore the statistical significance of the generalized modeling approach, which contrasts with the conclusions drawn by \citet{tseng2020using}. This discrepancy may be attributed to the use of a single model incorporating both single and multitask learning variants, suggesting that the multitask learning variant of a single-task learning offers a more robust framework for identifying and predicting similar symptoms in schizophrenia. While LassoCV remains a valuable tool for single-task predictions, the enhanced performance of MultitasklassoCV indicates its potential for more comprehensive models that address the complexity of schizophrenia symptoms, whether in a generalized or personalized context.
+
+In conclusion, these findings align with the research hypotheses, demonstrating that multitask learning has substantial potential to enhance the accuracy and efficacy of mental health predictions in schizophrenia. By utilizing this approach, clinicians can improve the overall quality of decision-making, leading to more effective and evidence-based treatment strategies for schizophrenia patients. This research highlights the critical role of advanced machine learning techniques in refining mental health care and underscores the potential of multitask learning to support generalized clinical decisions that benefit a broader patient population.
+
+%%% ----------------------------------------------------------------------
+\goodbreak
+\section{Suggestion for Further Work}
+To further advance this research, several promising avenues could be pursued to deepen the understanding and broaden the application of multitask learning in predicting mental health outcomes for schizophrenia patients. First, expanding the study to encompass a larger, more diverse patient population would enhance the generalizability and robustness of findings, validating the effectiveness of LassoCV and MultitaskLassoCV in personalized mental health prediction. By focusing on individualized symptom patterns and responses to treatment, future research could contribute to the development of precision medicine approaches in mental health care. This expansion would also help to capture a wider range of clinical presentations and demographic variations, offering a more comprehensive evaluation of these models in real-world settings.
+
+Additionally, incorporating more advanced and sophisticated machine learning models, such as deep learning techniques, could further improve predictive accuracy and capture more complex patterns in the data.
+
+
+Moreover, investigating the use of MulitaskLassoCV for multitask learning in other mental health conditions could help to determine whether the observed benefits extend beyond schizophrenia, potentially offering broader implications for mental health prediction and treatment.
+
+Overall, these suggestions for future work aim to build on the promising results of this study, further advancing the application of multitask learning in Schizophrenia prediction and treatment.
+
+
