@@ -32,5 +32,11 @@ This work contributes to:
 
 ## Author
 
+**Olajumoke Akinremi** 
+## Author
+
 **Olajumoke Akinremi**  
-Data Scientist | Digital Health Researcher | Founder – Data for Social Impact
+Data Scientist | Digital Health Researcher |Founder & Director (Digital Programmes), Havilah Grace Foundation  
+
+Havilah Grace Foundation is a non-profit organisation delivering data analytics training and digital research initiatives for social impact, alongside medical relief programmes supporting widows.
+
